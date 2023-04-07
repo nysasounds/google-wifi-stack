@@ -3,6 +3,11 @@ version: '3.8'
 networks:
   monitoring:
     driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: "172.31.0.8/29"
+          gateway: "172.31.0.9"
 
 volumes:
   prometheus_data: {}
