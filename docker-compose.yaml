@@ -14,7 +14,7 @@ volumes:
 
 services:
   google-wifi:
-    image: nysasounds/google-wifi-prometheus-exporter:0.0.1
+    image: nysasounds/google-wifi-prometheus-exporter:0.0.2
     container_name: google-wifi
     restart: unless-stopped
     env_file:
