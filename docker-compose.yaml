@@ -17,6 +17,8 @@ services:
     image: nysasounds/google-wifi-prometheus-exporter:0.0.1
     container_name: google-wifi
     restart: unless-stopped
+    env_file:
+      - google-wifi.env
     expose:
       - 9469
     networks:
