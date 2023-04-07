@@ -1,4 +1,4 @@
-# Speedtest metrics to prometheus
+# Google Wifi metrics to prometheus
 
 A docker-compose stack to send Google Wifi router metrics to prometheus server
 
